@@ -1,0 +1,69 @@
+header>h1 {
+    text-align: center;
+}
+
+#list {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.container {
+    text-align: center;
+    border: 2px solid;
+}
+
+#list>div {
+    padding: 2%;
+    border: 1px solid;
+    margin: 1% 1%;
+    width: 94%;
+    word-wrap: break-word;
+}
+
+#list>div:hover {
+    background-color: #09093c;
+}
+
+html {
+    background-color: #0f0f23;
+}
+
+body {
+    font-family: "Cascadia Code", "Source Code Pro", "Courier New", Courier, monospace;
+    font-size: medium;
+
+    color: #cccccc;
+}
+
+.kesz {
+    text-decoration: line-through;
+}
+
+.item {
+    font-family: "Cascadia Code", "Source Code Pro", "Courier New", Courier, monospace;
+    font-size: medium;
+    padding: 2%;
+    border: 1px solid;
+    margin: 1% 1%;
+    width: 94%;
+    background-color: #09093c;
+    color: #cccccc;
+}
+
+#add {
+    background-color: #0f0f23;
+    color: #cccccc;
+    font-size: medium;
+    border: solid white 0.5px;
+    border-radius: 10%;
+    height: 3vh;
+    width: 9ch;
+    transition: 100ms;
+    margin-bottom: 1%;
+
+}
+
+#add:hover {
+    background-color: #0c0c4f;
+}
